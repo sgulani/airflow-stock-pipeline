@@ -1,0 +1,32 @@
+# --- Python bytecode and cache files ---
+__pycache__/
+*.py[cod]
+*.sqlite
+*.log
+
+# --- Virtual environments ---
+.venv/
+.venv_airflow/
+env/
+venv/
+
+# --- Airflow metadata and logs ---
+airflow/airflow.db
+airflow/airflow-webserver.pid
+airflow/logs/
+airflow/unittests.cfg
+
+# --- Sensitive environment variables ---
+.env
+
+# --- VS Code workspace settings ---
+.vscode/
+
+# --- DevContainer artifacts (optional) ---
+.devcontainer/.env
+.devcontainer/setup.sh
+.devcontainer/Dockerfile
+
+# --- OS-specific files ---
+.DS_Store
+Thumbs.db
